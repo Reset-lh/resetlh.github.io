@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,85 @@
     <title>Document</title>
     <link rel="stylesheet" href="./index.css">
 </head>
+
 <body>
     <div class="box">
-     111DSDSD
+
+        <div class="top">
+            <div class="top-card">
+                <div class="top-left">
+                    <div class="mine">
+                        <img src="./pic.png" alt="">
+                    </div>
+                    <p class="mineP">努力到无能为力，拼搏到感动自己</p>
+                    <div class="mineCon">
+                        <p>陈信宏</p>
+                        <p>歌手</p>
+                        <p>在职台湾 ▣ 台北</p>
+                    </div>
+                </div>
+            </div>
+            <div class="down_arrow">
+                <p>&#8595</p>
+            </div>
+        </div>
+
+        <div class="information">
+            <div class="informationTop">
+                <p>基本资料</p>
+            </div>
+
+            <div class="informationCenter">
+                <div class="centerLeft">
+                    <div class="smallBox">
+                        <img src="./xin.png" alt="">
+                    </div>
+                </div>
+
+                <div class="centerRight">
+                    <p>姓名 &nbsp; | &nbsp; 阿信</p>
+                    <p>手机 &nbsp; | &nbsp; XX</p>
+                    <p>性别 &nbsp; | &nbsp; XX</p>
+                    <p>邮箱 &nbsp; | &nbsp; XX</p>
+                    <p>出生 &nbsp; | &nbsp; XX</p>
+                    <p>QQ号 &nbsp; | &nbsp; XX</p>
+                    <p>地址 &nbsp; | &nbsp; XX</p>
+                    <p>学校 &nbsp; | &nbsp; XX</p>
+                    <p>学历 &nbsp; | &nbsp; XX</p>
+                    <p>专业 &nbsp; | &nbsp; XX</p>
+                </div>
+
+                <div class="centerBottom">
+                    <div class="centerBottomLeft">
+                        <h4>▣个人技能</h4>
+                        <p>熟练掌握 HTML、CSS、JavaScript等web前端技术 </p>
+                        <p>熟练操作linux操作系统、SQL语句以及java编程 </p>
+                        <p>了解 Hadoop、Hdfs 等大数据平台</p>
+                        <p>了解微信小程序开发的内容</p>
+                    </div>
+                    <div class="centerBottomRight">
+                        <h4>▣项目经验</h4>
+                        <p>X X 管理系统</p>
+                        <p>担任职位：X X </p>
+                        <p>该项目由web技术实现，本人在项目中负责需求
+                        <p>分析、数据库的逻辑设计，并进行前端网页代码</p>
+                        <p>的编写以及部分后端代码的实现</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
+
+    <script>
+        let downArrow = document.querySelector('.down_arrow')
+        let box = document.querySelector('.box')
+        downArrow.onclick = function () {
+            window.scrollTo(0, 740)
+        }
+
+
+    </script>
 </body>
+
 </html>
